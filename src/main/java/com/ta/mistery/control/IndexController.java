@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 public class IndexController {
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public ModelAndView index(HttpServletRequest httpServletRequest, ModelAndView modelAndView) {
-        modelAndView.setViewName("md/index");
+        modelAndView.setViewName("chat/index");
         return modelAndView;
     }
 }
